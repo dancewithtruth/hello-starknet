@@ -1,0 +1,13 @@
+[
+    {
+        "inputs": [
+            {
+                "name": "user",
+                "type": "felt"
+            }
+        ],
+        "name": "extend_range",
+        "outputs": [],
+        "type": "function"
+    }
+]
