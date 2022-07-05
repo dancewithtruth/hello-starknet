@@ -1,0 +1,82 @@
+[
+    {
+        "data": [
+            {
+                "name": "prev_admin",
+                "type": "felt"
+            },
+            {
+                "name": "new_admin",
+                "type": "felt"
+            }
+        ],
+        "keys": [],
+        "name": "AdminTransferred",
+        "type": "event"
+    },
+    {
+        "inputs": [
+            {
+                "name": "initial_admin",
+                "type": "felt"
+            },
+            {
+                "name": "implementation_hash_",
+                "type": "felt"
+            }
+        ],
+        "name": "constructor",
+        "outputs": [],
+        "type": "constructor"
+    },
+    {
+        "inputs": [
+            {
+                "name": "new_admin",
+                "type": "felt"
+            }
+        ],
+        "name": "change_admin",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "new_implementation_hash",
+                "type": "felt"
+            }
+        ],
+        "name": "change_implementation_hash",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "selector",
+                "type": "felt"
+            },
+            {
+                "name": "calldata_size",
+                "type": "felt"
+            },
+            {
+                "name": "calldata",
+                "type": "felt*"
+            }
+        ],
+        "name": "__default__",
+        "outputs": [
+            {
+                "name": "retdata_size",
+                "type": "felt"
+            },
+            {
+                "name": "retdata",
+                "type": "felt*"
+            }
+        ],
+        "type": "function"
+    }
+]
