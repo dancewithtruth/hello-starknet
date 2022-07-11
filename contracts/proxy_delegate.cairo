@@ -52,7 +52,7 @@ func _assert_admin{
 end
 
 @external
-func change_admin{
+func set_admin{
     syscall_ptr : felt*,
     pedersen_ptr : HashBuiltin*,
     range_check_ptr
@@ -63,7 +63,7 @@ func change_admin{
 end
 
 @external
-func change_implementation_hash{
+func set_implementation_hash{
     syscall_ptr : felt*,
     pedersen_ptr : HashBuiltin*,
     range_check_ptr
